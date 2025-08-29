@@ -14,7 +14,7 @@ const clearHistoryBtn = document.querySelector("#cart-box button");
 // Current local time
 function getCurrentTime() {
   const now = new Date();
-  return now.toLocaleTimeString(); // e.g., "10:45:23 AM"
+  return now.toLocaleTimeString();
 }
 
 // Heart Icon
@@ -84,7 +84,7 @@ document.querySelectorAll("button").forEach(btn => {
   }
 });
 
-// Global Copy Button in Navbar
+// Globaly Copy
 copyBtnEl.addEventListener("click", () => {
   alert("Use the Copy button on each card to copy hotline numbers.");
 });
