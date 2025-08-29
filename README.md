@@ -9,3 +9,4 @@
 4. Event delegation is a technique where you add one event listener to a parent element instead of adding listeners to each child. It works because of event bubbling. You can check which child was clicked using `event.target`. This is useful for performance and for handling elements that are added dynamically.
 
 5. `preventDefault()` stops the browser’s default action, like submitting a form or following a link. `stopPropagation()` stops the event from bubbling up to parent elements. They are often used together when you want full control over what happens during an event.
+
