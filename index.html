@@ -42,7 +42,7 @@
           <div
             class="flex items-center justify-center gap-x-2 bg-green-100 px-4 py-2 text-sm md:text-base rounded-full h-10 min-w-[90px]"
           >
-            <span id="heartCount" class="text-gray-700 font-medium">3</span>
+            <span id="heartCount" class="text-gray-700 font-medium">0</span>
             <img
               src="images/heart.png"
               alt="Heart Icon"
@@ -67,7 +67,7 @@
             id="copyBtn"
             class="flex items-center justify-center bg-green-500 text-white px-4 py-2 text-sm md:text-base rounded-full hover:bg-green-600 transition h-10 min-w-[90px]"
           >
-            <span id="copyCount">2 Copy</span>
+            <span id="copyCount">0 Copy</span>
           </button>
         </div>
       </div>
@@ -112,7 +112,7 @@
             <div
               class="kitchen-items grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
             >
-              <!-- Example Emergency Card -->
+              <!-- Emergency Card 1 -->
               <article
                 class="w-full bg-white rounded-lg shadow-md p-4 space-y-4"
               >
@@ -208,7 +208,293 @@
                   </button>
                 </div>
               </article>
-              <!-- Example Emergency Card -->
+
+              <!-- Emergency Card 2 -->
+              <article
+                class="w-full bg-white rounded-lg shadow-md p-4 space-y-4"
+              >
+                <!-- Top Row -->
+                <div class="flex justify-between items-center">
+                  <div class="flex items-center space-x-2">
+                    <img
+                      src="images/police.png"
+                      alt="Emergency Icon"
+                      class="w-10 h-10"
+                    />
+                  </div>
+                  <button
+                    aria-label="Add to favorites"
+                    class="p-2 rounded-full hover:bg-gray-100"
+                  >
+                    <svg
+                      class="w-5 h-5 text-gray-700"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 21C12 21 4 13.5 4 8.5C4 5.42 6.42 3 9.5 3C11.24 3 12.91 4.01 13.5 5.36C14.09 4.01 15.76 3 17.5 3C20.58 3 23 5.42 23 8.5C23 13.5 15 21 15 21H12Z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- Title and Subtitle -->
+                <div>
+                  <h2 class="text-base sm:text-lg font-semibold text-gray-800">
+                    Police Helpline Number
+                  </h2>
+                  <p class="text-xs sm:text-sm text-gray-500">Police</p>
+                </div>
+
+                <!-- Emergency Number -->
+                <div class="text-2xl sm:text-3xl font-bold text-gray-800">
+                  999
+                </div>
+
+                <!-- Category Badge -->
+                <button
+                  class="px-4 py-1 bg-gray-100 text-gray-500 text-sm font-medium rounded-full"
+                >
+                  All
+                </button>
+
+                <!-- Bottom Buttons -->
+                <div class="grid grid-cols-2 gap-4 pt-2">
+                  <!-- Copy Button -->
+                  <button
+                    class="flex justify-center items-center w-full px-4 py-2 border border-gray-300 bg-white text-gray-700 rounded-md hover:bg-gray-100"
+                  >
+                    <svg
+                      class="w-5 h-5 mr-2"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h6a2 2 0 012 2v2m-4 12h6a2 2 0 002-2v-6a2 2 0 00-2-2h-6a2 2 0 00-2 2v6a2 2 0 002 2z"
+                      />
+                    </svg>
+                    Copy
+                  </button>
+
+                  <!-- Call Button -->
+                  <button
+                    class="flex justify-center items-center w-full px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700"
+                  >
+                    <svg
+                      class="w-5 h-5 mr-2"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07A19.5 19.5 0 013.15 9.81 19.86 19.86 0 010 1.82 2 2 0 012 0h3a2 2 0 012 1.72c.2 1.38.57 2.72 1.1 4a2 2 0 01-.45 2.11L6.13 9.88a16 16 0 007 7l2.05-1.65a2 2 0 012.11-.45c1.28.53 2.62.9 4 1.1a2 2 0 011.71 2.04z"
+                      />
+                    </svg>
+                    Call
+                  </button>
+                </div>
+              </article>
+
+              <!-- Emergency Card 3 -->
+              <article
+                class="w-full bg-white rounded-lg shadow-md p-4 space-y-4"
+              >
+                <!-- Top Row -->
+                <div class="flex justify-between items-center">
+                  <div class="flex items-center space-x-2">
+                    <img
+                      src="images/fire-service.png"
+                      alt="Emergency Icon"
+                      class="w-10 h-10"
+                    />
+                  </div>
+                  <button
+                    aria-label="Add to favorites"
+                    class="p-2 rounded-full hover:bg-gray-100"
+                  >
+                    <svg
+                      class="w-5 h-5 text-gray-700"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 21C12 21 4 13.5 4 8.5C4 5.42 6.42 3 9.5 3C11.24 3 12.91 4.01 13.5 5.36C14.09 4.01 15.76 3 17.5 3C20.58 3 23 5.42 23 8.5C23 13.5 15 21 15 21H12Z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- Title and Subtitle -->
+                <div>
+                  <h2 class="text-base sm:text-lg font-semibold text-gray-800">
+                    Fire Service Number
+                  </h2>
+                  <p class="text-xs sm:text-sm text-gray-500">Fire Service</p>
+                </div>
+
+                <!-- Emergency Number -->
+                <div class="text-2xl sm:text-3xl font-bold text-gray-800">
+                  999
+                </div>
+
+                <!-- Category Badge -->
+                <button
+                  class="px-4 py-1 bg-gray-100 text-gray-500 text-sm font-medium rounded-full"
+                >
+                  All
+                </button>
+
+                <!-- Bottom Buttons -->
+                <div class="grid grid-cols-2 gap-4 pt-2">
+                  <!-- Copy Button -->
+                  <button
+                    class="flex justify-center items-center w-full px-4 py-2 border border-gray-300 bg-white text-gray-700 rounded-md hover:bg-gray-100"
+                  >
+                    <svg
+                      class="w-5 h-5 mr-2"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h6a2 2 0 012 2v2m-4 12h6a2 2 0 002-2v-6a2 2 0 00-2-2h-6a2 2 0 00-2 2v6a2 2 0 002 2z"
+                      />
+                    </svg>
+                    Copy
+                  </button>
+
+                  <!-- Call Button -->
+                  <button
+                    class="flex justify-center items-center w-full px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700"
+                  >
+                    <svg
+                      class="w-5 h-5 mr-2"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07A19.5 19.5 0 013.15 9.81 19.86 19.86 0 010 1.82 2 2 0 012 0h3a2 2 0 012 1.72c.2 1.38.57 2.72 1.1 4a2 2 0 01-.45 2.11L6.13 9.88a16 16 0 007 7l2.05-1.65a2 2 0 012.11-.45c1.28.53 2.62.9 4 1.1a2 2 0 011.71 2.04z"
+                      />
+                    </svg>
+                    Call
+                  </button>
+                </div>
+              </article>
+
+              <!-- Emergency Card 4 -->
+              <article
+                class="w-full bg-white rounded-lg shadow-md p-4 space-y-4"
+              >
+                <!-- Top Row -->
+                <div class="flex justify-between items-center">
+                  <div class="flex items-center space-x-2">
+                    <img
+                      src="images/ambulance.png"
+                      alt="Emergency Icon"
+                      class="w-10 h-10"
+                    />
+                  </div>
+                  <button
+                    aria-label="Add to favorites"
+                    class="p-2 rounded-full hover:bg-gray-100"
+                  >
+                    <svg
+                      class="w-5 h-5 text-gray-700"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 21C12 21 4 13.5 4 8.5C4 5.42 6.42 3 9.5 3C11.24 3 12.91 4.01 13.5 5.36C14.09 4.01 15.76 3 17.5 3C20.58 3 23 5.42 23 8.5C23 13.5 15 21 15 21H12Z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- Title and Subtitle -->
+                <div>
+                  <h2 class="text-base sm:text-lg font-semibold text-gray-800">
+                    Ambulance Service
+                  </h2>
+                  <p class="text-xs sm:text-sm text-gray-500">Ambulance</p>
+                </div>
+
+                <!-- Emergency Number -->
+                <div class="text-2xl sm:text-3xl font-bold text-gray-800">
+                  999
+                </div>
+
+                <!-- Category Badge -->
+                <button
+                  class="px-4 py-1 bg-gray-100 text-gray-500 text-sm font-medium rounded-full"
+                >
+                  All
+                </button>
+
+                <!-- Bottom Buttons -->
+                <div class="grid grid-cols-2 gap-4 pt-2">
+                  <!-- Copy Button -->
+                  <button
+                    class="flex justify-center items-center w-full px-4 py-2 border border-gray-300 bg-white text-gray-700 rounded-md hover:bg-gray-100"
+                  >
+                    <svg
+                      class="w-5 h-5 mr-2"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h6a2 2 0 012 2v2m-4 12h6a2 2 0 002-2v-6a2 2 0 00-2-2h-6a2 2 0 00-2 2v6a2 2 0 002 2z"
+                      />
+                    </svg>
+                    Copy
+                  </button>
+
+                  <!-- Call Button -->
+                  <button
+                    class="flex justify-center items-center w-full px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700"
+                  >
+                    <svg
+                      class="w-5 h-5 mr-2"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07A19.5 19.5 0 013.15 9.81 19.86 19.86 0 010 1.82 2 2 0 012 0h3a2 2 0 012 1.72c.2 1.38.57 2.72 1.1 4a2 2 0 01-.45 2.11L6.13 9.88a16 16 0 007 7l2.05-1.65a2 2 0 012.11-.45c1.28.53 2.62.9 4 1.1a2 2 0 011.71 2.04z"
+                      />
+                    </svg>
+                    Call
+                  </button>
+                </div>
+              </article>
+
+              <!-- Emergency Card 5 -->
               <article
                 class="w-full bg-white rounded-lg shadow-md p-4 space-y-4"
               >
@@ -242,10 +528,10 @@
                 <!-- Title and Subtitle -->
                 <div>
                   <h2 class="text-base sm:text-lg font-semibold text-gray-800">
-                    National Emergency Number
+                    Women & Child Helpline
                   </h2>
                   <p class="text-xs sm:text-sm text-gray-500">
-                    National Emergency
+                    Women & Child Helpline
                   </p>
                 </div>
 
@@ -304,7 +590,8 @@
                   </button>
                 </div>
               </article>
-              <!-- Example Emergency Card -->
+
+              <!-- Emergency Card 6 -->
               <article
                 class="w-full bg-white rounded-lg shadow-md p-4 space-y-4"
               >
@@ -338,10 +625,10 @@
                 <!-- Title and Subtitle -->
                 <div>
                   <h2 class="text-base sm:text-lg font-semibold text-gray-800">
-                    National Emergency Number
+                    Anti-Corruption Helpline
                   </h2>
                   <p class="text-xs sm:text-sm text-gray-500">
-                    National Emergency
+                    Anti-Corruption
                   </p>
                 </div>
 
@@ -400,7 +687,8 @@
                   </button>
                 </div>
               </article>
-              <!-- Example Emergency Card -->
+
+              <!-- Emergency Card 7 -->
               <article
                 class="w-full bg-white rounded-lg shadow-md p-4 space-y-4"
               >
@@ -434,10 +722,10 @@
                 <!-- Title and Subtitle -->
                 <div>
                   <h2 class="text-base sm:text-lg font-semibold text-gray-800">
-                    National Emergency Number
+                    Electricity Helpline
                   </h2>
                   <p class="text-xs sm:text-sm text-gray-500">
-                    National Emergency
+                    Electricity Outage
                   </p>
                 </div>
 
@@ -496,7 +784,8 @@
                   </button>
                 </div>
               </article>
-              <!-- Example Emergency Card -->
+
+              <!-- Emergency Card 8 -->
               <article
                 class="w-full bg-white rounded-lg shadow-md p-4 space-y-4"
               >
@@ -504,7 +793,7 @@
                 <div class="flex justify-between items-center">
                   <div class="flex items-center space-x-2">
                     <img
-                      src="images/emergency.png"
+                      src="images/brac.png"
                       alt="Emergency Icon"
                       class="w-10 h-10"
                     />
@@ -530,11 +819,9 @@
                 <!-- Title and Subtitle -->
                 <div>
                   <h2 class="text-base sm:text-lg font-semibold text-gray-800">
-                    National Emergency Number
+                    Brac Helpline
                   </h2>
-                  <p class="text-xs sm:text-sm text-gray-500">
-                    National Emergency
-                  </p>
+                  <p class="text-xs sm:text-sm text-gray-500">Brac</p>
                 </div>
 
                 <!-- Emergency Number -->
@@ -592,7 +879,8 @@
                   </button>
                 </div>
               </article>
-              <!-- Example Emergency Card -->
+
+              <!-- Emergency Card 9 -->
               <article
                 class="w-full bg-white rounded-lg shadow-md p-4 space-y-4"
               >
@@ -600,7 +888,7 @@
                 <div class="flex justify-between items-center">
                   <div class="flex items-center space-x-2">
                     <img
-                      src="images/emergency.png"
+                      src="images/Bangladesh-Railway.png"
                       alt="Emergency Icon"
                       class="w-10 h-10"
                     />
@@ -626,298 +914,10 @@
                 <!-- Title and Subtitle -->
                 <div>
                   <h2 class="text-base sm:text-lg font-semibold text-gray-800">
-                    National Emergency Number
+                    Bangladesh Railway Helpline
                   </h2>
                   <p class="text-xs sm:text-sm text-gray-500">
-                    National Emergency
-                  </p>
-                </div>
-
-                <!-- Emergency Number -->
-                <div class="text-2xl sm:text-3xl font-bold text-gray-800">
-                  999
-                </div>
-
-                <!-- Category Badge -->
-                <button
-                  class="px-4 py-1 bg-gray-100 text-gray-500 text-sm font-medium rounded-full"
-                >
-                  All
-                </button>
-
-                <!-- Bottom Buttons -->
-                <div class="grid grid-cols-2 gap-4 pt-2">
-                  <!-- Copy Button -->
-                  <button
-                    class="flex justify-center items-center w-full px-4 py-2 border border-gray-300 bg-white text-gray-700 rounded-md hover:bg-gray-100"
-                  >
-                    <svg
-                      class="w-5 h-5 mr-2"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h6a2 2 0 012 2v2m-4 12h6a2 2 0 002-2v-6a2 2 0 00-2-2h-6a2 2 0 00-2 2v6a2 2 0 002 2z"
-                      />
-                    </svg>
-                    Copy
-                  </button>
-
-                  <!-- Call Button -->
-                  <button
-                    class="flex justify-center items-center w-full px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700"
-                  >
-                    <svg
-                      class="w-5 h-5 mr-2"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07A19.5 19.5 0 013.15 9.81 19.86 19.86 0 010 1.82 2 2 0 012 0h3a2 2 0 012 1.72c.2 1.38.57 2.72 1.1 4a2 2 0 01-.45 2.11L6.13 9.88a16 16 0 007 7l2.05-1.65a2 2 0 012.11-.45c1.28.53 2.62.9 4 1.1a2 2 0 011.71 2.04z"
-                      />
-                    </svg>
-                    Call
-                  </button>
-                </div>
-              </article>
-              <!-- Example Emergency Card -->
-              <article
-                class="w-full bg-white rounded-lg shadow-md p-4 space-y-4"
-              >
-                <!-- Top Row -->
-                <div class="flex justify-between items-center">
-                  <div class="flex items-center space-x-2">
-                    <img
-                      src="images/emergency.png"
-                      alt="Emergency Icon"
-                      class="w-10 h-10"
-                    />
-                  </div>
-                  <button
-                    aria-label="Add to favorites"
-                    class="p-2 rounded-full hover:bg-gray-100"
-                  >
-                    <svg
-                      class="w-5 h-5 text-gray-700"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M12 21C12 21 4 13.5 4 8.5C4 5.42 6.42 3 9.5 3C11.24 3 12.91 4.01 13.5 5.36C14.09 4.01 15.76 3 17.5 3C20.58 3 23 5.42 23 8.5C23 13.5 15 21 15 21H12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-
-                <!-- Title and Subtitle -->
-                <div>
-                  <h2 class="text-base sm:text-lg font-semibold text-gray-800">
-                    National Emergency Number
-                  </h2>
-                  <p class="text-xs sm:text-sm text-gray-500">
-                    National Emergency
-                  </p>
-                </div>
-
-                <!-- Emergency Number -->
-                <div class="text-2xl sm:text-3xl font-bold text-gray-800">
-                  999
-                </div>
-
-                <!-- Category Badge -->
-                <button
-                  class="px-4 py-1 bg-gray-100 text-gray-500 text-sm font-medium rounded-full"
-                >
-                  All
-                </button>
-
-                <!-- Bottom Buttons -->
-                <div class="grid grid-cols-2 gap-4 pt-2">
-                  <!-- Copy Button -->
-                  <button
-                    class="flex justify-center items-center w-full px-4 py-2 border border-gray-300 bg-white text-gray-700 rounded-md hover:bg-gray-100"
-                  >
-                    <svg
-                      class="w-5 h-5 mr-2"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h6a2 2 0 012 2v2m-4 12h6a2 2 0 002-2v-6a2 2 0 00-2-2h-6a2 2 0 00-2 2v6a2 2 0 002 2z"
-                      />
-                    </svg>
-                    Copy
-                  </button>
-
-                  <!-- Call Button -->
-                  <button
-                    class="flex justify-center items-center w-full px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700"
-                  >
-                    <svg
-                      class="w-5 h-5 mr-2"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07A19.5 19.5 0 013.15 9.81 19.86 19.86 0 010 1.82 2 2 0 012 0h3a2 2 0 012 1.72c.2 1.38.57 2.72 1.1 4a2 2 0 01-.45 2.11L6.13 9.88a16 16 0 007 7l2.05-1.65a2 2 0 012.11-.45c1.28.53 2.62.9 4 1.1a2 2 0 011.71 2.04z"
-                      />
-                    </svg>
-                    Call
-                  </button>
-                </div>
-              </article>
-              <!-- Example Emergency Card -->
-              <article
-                class="w-full bg-white rounded-lg shadow-md p-4 space-y-4"
-              >
-                <!-- Top Row -->
-                <div class="flex justify-between items-center">
-                  <div class="flex items-center space-x-2">
-                    <img
-                      src="images/emergency.png"
-                      alt="Emergency Icon"
-                      class="w-10 h-10"
-                    />
-                  </div>
-                  <button
-                    aria-label="Add to favorites"
-                    class="p-2 rounded-full hover:bg-gray-100"
-                  >
-                    <svg
-                      class="w-5 h-5 text-gray-700"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M12 21C12 21 4 13.5 4 8.5C4 5.42 6.42 3 9.5 3C11.24 3 12.91 4.01 13.5 5.36C14.09 4.01 15.76 3 17.5 3C20.58 3 23 5.42 23 8.5C23 13.5 15 21 15 21H12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-
-                <!-- Title and Subtitle -->
-                <div>
-                  <h2 class="text-base sm:text-lg font-semibold text-gray-800">
-                    National Emergency Number
-                  </h2>
-                  <p class="text-xs sm:text-sm text-gray-500">
-                    National Emergency
-                  </p>
-                </div>
-
-                <!-- Emergency Number -->
-                <div class="text-2xl sm:text-3xl font-bold text-gray-800">
-                  999
-                </div>
-
-                <!-- Category Badge -->
-                <button
-                  class="px-4 py-1 bg-gray-100 text-gray-500 text-sm font-medium rounded-full"
-                >
-                  All
-                </button>
-
-                <!-- Bottom Buttons -->
-                <div class="grid grid-cols-2 gap-4 pt-2">
-                  <!-- Copy Button -->
-                  <button
-                    class="flex justify-center items-center w-full px-4 py-2 border border-gray-300 bg-white text-gray-700 rounded-md hover:bg-gray-100"
-                  >
-                    <svg
-                      class="w-5 h-5 mr-2"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h6a2 2 0 012 2v2m-4 12h6a2 2 0 002-2v-6a2 2 0 00-2-2h-6a2 2 0 00-2 2v6a2 2 0 002 2z"
-                      />
-                    </svg>
-                    Copy
-                  </button>
-
-                  <!-- Call Button -->
-                  <button
-                    class="flex justify-center items-center w-full px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700"
-                  >
-                    <svg
-                      class="w-5 h-5 mr-2"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07A19.5 19.5 0 013.15 9.81 19.86 19.86 0 010 1.82 2 2 0 012 0h3a2 2 0 012 1.72c.2 1.38.57 2.72 1.1 4a2 2 0 01-.45 2.11L6.13 9.88a16 16 0 007 7l2.05-1.65a2 2 0 012.11-.45c1.28.53 2.62.9 4 1.1a2 2 0 011.71 2.04z"
-                      />
-                    </svg>
-                    Call
-                  </button>
-                </div>
-              </article>
-              <!-- Example Emergency Card -->
-              <article
-                class="w-full bg-white rounded-lg shadow-md p-4 space-y-4"
-              >
-                <!-- Top Row -->
-                <div class="flex justify-between items-center">
-                  <div class="flex items-center space-x-2">
-                    <img
-                      src="images/emergency.png"
-                      alt="Emergency Icon"
-                      class="w-10 h-10"
-                    />
-                  </div>
-                  <button
-                    aria-label="Add to favorites"
-                    class="p-2 rounded-full hover:bg-gray-100"
-                  >
-                    <svg
-                      class="w-5 h-5 text-gray-700"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M12 21C12 21 4 13.5 4 8.5C4 5.42 6.42 3 9.5 3C11.24 3 12.91 4.01 13.5 5.36C14.09 4.01 15.76 3 17.5 3C20.58 3 23 5.42 23 8.5C23 13.5 15 21 15 21H12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-
-                <!-- Title and Subtitle -->
-                <div>
-                  <h2 class="text-base sm:text-lg font-semibold text-gray-800">
-                    National Emergency Number
-                  </h2>
-                  <p class="text-xs sm:text-sm text-gray-500">
-                    National Emergency
+                    Bangladesh Railway
                   </p>
                 </div>
 
@@ -980,14 +980,31 @@
           </div>
         </section>
 
-        <!-- Aside Section -->
         <aside id="cart-box" class="lg:col-span-3 h-full">
           <div
             class="bg-white rounded-lg shadow-md p-4 space-y-4 h-full flex flex-col"
           >
-            <!-- Header -->
-            <div class="flex justify-between items-center">
-              <h2 class="text-lg font-semibold text-gray-800">Call History</h2>
+            <!-- Header with Icon -->
+            <div class="flex items-center justify-between">
+              <div class="flex items-center space-x-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 text-gray-700"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <h2 class="text-lg font-semibold text-gray-800">
+                  Call History
+                </h2>
+              </div>
               <button
                 class="px-6 py-2 bg-green-600 text-white text-sm rounded-full hover:bg-green-700"
               >
@@ -995,24 +1012,12 @@
               </button>
             </div>
 
-            <!-- Example Entry -->
-            <div class="border bg-gray-100 border-gray-200 rounded-md p-3">
-              <div class="flex justify-between items-center">
-                <div>
-                  <p class="text-sm font-medium text-gray-800">
-                    Fire Service Number
-                  </p>
-                  <p class="text-xs text-gray-500">999</p>
-                </div>
-                <p class="text-xs text-gray-500">11:36:58 AM</p>
-              </div>
-            </div>
+            <!-- Dynamic entries will be injected here -->
+            <div class="flex-grow space-y-3"></div>
 
-            <!-- Optional: Add a spacer or footer if needed -->
-            <div class="flex-grow"></div>
           </div>
         </aside>
-        
+
       </section>
     </main>
 
